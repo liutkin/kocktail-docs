@@ -4,9 +4,9 @@
     router-link.logo.font-5xl.block(:to='{ name: "api" }')
       the-logo(width='100%')
   ul.margin-y-0.padding-left-0.no-list.text-upper.font-sm
-    li(v-for='({title, route}, index) in links' :key='index')
+    li(v-for='({title, name}, index) in links' :key='index')
       router-link.sidebar__link.block.padding-x-4.padding-y-3(
-        :to='{ name: route }'
+        :to='{ name }'
         active-class='bg-lite-gradient-diagonal'
         v-text='title'
       )
@@ -24,15 +24,15 @@ export default {
     links: [
       {
         title: "Getting Started",
-        route: 'gettingStarted'
+        name: "gettingStarted",
       },
       {
         title: "API",
-        route: "api",
+        name: "api",
       },
       {
         title: "Example",
-        route: "example",
+        name: "example",
       },
     ],
   }),
@@ -62,6 +62,7 @@ export default {
   background: linear-gradient(45deg, rgb(255, 96, 0) 0%, rgb(255, 153, 0) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
   transition: filter 0.1s ease;
   filter: hue-rotate(-10deg);
   &:hover,

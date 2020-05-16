@@ -618,6 +618,12 @@
     "category": "position"
   },
   {
+    "className": "z-index-max",
+    "css": ["z-index: 2147483647;"],
+    "mobileFirstSupport": false,
+    "category": "position"
+  },
+  {
     "className": "max-width-full",
     "css": ["max-width: 100%;"],
     "mobileFirstSupport": true,
@@ -690,6 +696,84 @@
     "category": "width"
   },
   {
+    "className": "width-3-5",
+    "css": ["width: 3.5rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
+    "className": "width-4",
+    "css": ["width: 4rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
+    "className": "width-4-5",
+    "css": ["width: 4.5rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
+    "className": "width-5",
+    "css": ["width: 5rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
+    "className": "width-5-5",
+    "css": ["width: 5.5rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
+    "className": "width-6",
+    "css": ["width: 6rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
+    "className": "width-6-5",
+    "css": ["width: 6.5rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
+    "className": "width-7",
+    "css": ["width: 7rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
+    "className": "width-7-5",
+    "css": ["width: 7.5rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
+    "className": "width-8",
+    "css": ["width: 8rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
+    "className": "width-8-5",
+    "css": ["width: 8.5rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
+    "className": "width-9",
+    "css": ["width: 9rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
+    "className": "width-10",
+    "css": ["width: 10rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
     "className": "max-height-full",
     "css": ["max-height: 100%;"],
     "mobileFirstSupport": true,
@@ -709,7 +793,13 @@
   },
   {
     "className": "min-height-full-view",
-    "css": ["min-height: 100%;"],
+    "css": ["min-height: 100vh;"],
+    "mobileFirstSupport": true,
+    "category": "height"
+  },
+  {
+    "className": "height-full-view",
+    "css": ["height: 100vh;"],
     "mobileFirstSupport": true,
     "category": "height"
   },
@@ -1351,12 +1441,24 @@
   },
   {
     "className": "border-rounded-4",
-    "css": ["border-radius: 1rem;"],
+    "css": ["border-radius: 0.75rem;"],
     "mobileFirstSupport": false,
     "category": "border"
   },
   {
     "className": "border-rounded-5",
+    "css": ["border-radius: 1rem;"],
+    "mobileFirstSupport": false,
+    "category": "border"
+  },
+  {
+    "className": "border-rounded-6",
+    "css": ["border-radius: 1.5rem;"],
+    "mobileFirstSupport": false,
+    "category": "border"
+  },
+  {
+    "className": "border-rounded-7",
     "css": ["border-radius: 2rem;"],
     "mobileFirstSupport": false,
     "category": "border"
