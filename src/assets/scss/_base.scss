@@ -1,0 +1,125 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  @include respond-to(xxl, min) {
+    font-size: 1vw;
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-size: 1rem;
+  font-family: $font_default;
+  line-height: $line_height;
+  color: $color_default;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, #e2e2e2 100%);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: $color_primary;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  user-select: none;
+  -webkit-appearance: none;
+}
+
+img {
+  max-width: 100%;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="search"],
+textarea {
+  &::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: lighten(gray, 20%);
+  }
+  &::-moz-placeholder {
+    /* Firefox 19+ */
+    color: lighten(gray, 20%);
+  }
+  &:-ms-input-placeholder {
+    /* IE 10+ */
+    color: lighten(gray, 20%);
+  }
+  &:-moz-placeholder {
+    /* Firefox 18- */
+    color: lighten(gray, 20%);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0.2rem;
+  height: 0.2rem;
+}
+
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba($color_primary, 0.6);
+  border: 0 none transparent;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(darken($color_primary, 10%), 0.6);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: rgba(darken($color_primary, 10%), 0.6);
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border: 0 none transparent;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: transparent;
+}
+
+::-webkit-scrollbar-track:active {
+  background: transparent;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+// vue transition styles
+.fade-left-enter-active,
+.fade-left-leave-active {
+  transition: opacity 0.2s, transform 0.2s;
+  transform: none;
+}
+
+.fade-left-enter,
+.fade-left-leave-to {
+  transform: translateX(-5%);
+  opacity: 0;
+}

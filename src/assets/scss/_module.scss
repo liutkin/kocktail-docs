@@ -1,0 +1,38 @@
+.input {
+  border-radius: 0.5rem;
+  border: $border_radius;
+  box-shadow: 0 1rem 2rem -1.1rem rgba(0, 0, 0, 0.25);
+  outline: none;
+  padding: 0.6rem 0.8rem;
+  background-color: white;
+  font-size: 1rem;
+  line-height: $line_height;
+  color: $color_default;
+  font-family: $font_default;
+  transition: box-shadow 0.1s ease, background-color 0.1s ease;
+  &:hover {
+    background-color: darken(white, 2%);
+  }
+  &:focus {
+    box-shadow: 0 1rem 2rem -1.1rem rgba(0, 0, 0, 0.6);
+  }
+}
+
+.plate {
+  border: none;
+  display: block;
+  outline: none;
+  background-color: transparent;
+  color: $color_alt;
+  line-height: $line_height;
+  transition: background-color 0.1s ease, color 0.1s ease;
+  &:hover,
+  &:focus {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  @include mod(active) {
+    color: $color_primary;
+    background-color: lighten($color_primary, 25%);
+  }
+}
+
