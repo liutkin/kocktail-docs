@@ -1,7 +1,7 @@
 <template lang="pug">
-#app.flex
-  the-sidebar
-  main.width-full.bg-lite-gradient-radial
+#app.flex--lg
+  the-nav
+  main.width-full.height-full-view.bg-lite-gradient-radial.padding-3.padding-5--lg
     transition(
       name='fade-left'
       mode='out-in'
@@ -14,14 +14,16 @@ import "normalize.css";
 
 export default {
   components: {
-    TheSidebar: () => import("@com/TheSidebar.vue"),
+    TheNav: () => import("@com/TheNav.vue"),
   },
 };
 </script>
 
 <style lang="scss">
 main {
-  margin-left: 17rem;
+  @include respond-to(lg, min) {
+    margin-left: 17rem;
+  }
 }
 
 .bg-lite-gradient-radial {

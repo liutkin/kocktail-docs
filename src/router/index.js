@@ -8,7 +8,7 @@ const routes = [
     path: "/gettingstarted",
     name: "gettingStarted",
     meta: {
-      title: "🍸Kocktail › Getting started",
+      title: "Kocktail › Getting started",
     },
     component: () => import("@/views/GettingStarted.vue"),
   },
@@ -16,7 +16,7 @@ const routes = [
     path: "/api",
     name: "api",
     meta: {
-      title: "🍸Kocktail › API",
+      title: "Kocktail › API",
     },
     component: () => import("@/views/Api.vue"),
   },
@@ -24,7 +24,7 @@ const routes = [
     path: "/example",
     name: "example",
     meta: {
-      title: "🍸Kocktail › Example",
+      title: "Kocktail › Example",
     },
     component: () => import("@/views/Example.vue"),
   },
@@ -41,7 +41,7 @@ const router = new VueRouter({
 });
 
 router.beforeEach((to, _, next) => {
-  document.title = to.meta.title || "🍸Kocktail";
+  document.title = to.meta.title || "Kocktail";
   next();
 });
 

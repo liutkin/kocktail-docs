@@ -1,5 +1,5 @@
 <template lang="pug">
-.height-full-view.flex.flex-column.padding-5
+.height-full.flex.flex-column
   .relative.flex-no-shrink
     input.input.width-full(
       type='text'

@@ -660,8 +660,20 @@
     "category": "width"
   },
   {
+    "className": "width-0-25",
+    "css": ["width: 0.25rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
     "className": "width-0-5",
     "css": ["width: 0.5rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
+    "className": "width-0-75",
+    "css": ["width: 0.75rem;"],
     "mobileFirstSupport": false,
     "category": "width"
   },
@@ -672,8 +684,20 @@
     "category": "width"
   },
   {
+    "className": "width-1-25",
+    "css": ["width: 1.25rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
     "className": "width-1-5",
     "css": ["width: 1.5rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
+    "className": "width-1-75",
+    "css": ["width: 1.75rem;"],
     "mobileFirstSupport": false,
     "category": "width"
   },
@@ -684,8 +708,20 @@
     "category": "width"
   },
   {
+    "className": "width-2-25",
+    "css": ["width: 2.25rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
     "className": "width-2-5",
     "css": ["width: 2.5rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
+    "className": "width-2-75",
+    "css": ["width: 2.75rem;"],
     "mobileFirstSupport": false,
     "category": "width"
   },
@@ -696,8 +732,20 @@
     "category": "width"
   },
   {
+    "className": "width-3-25",
+    "css": ["width: 3.25rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
     "className": "width-3-5",
     "css": ["width: 3.5rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
+    "className": "width-3-75",
+    "css": ["width: 3.75rem;"],
     "mobileFirstSupport": false,
     "category": "width"
   },
@@ -708,8 +756,20 @@
     "category": "width"
   },
   {
+    "className": "width-4-25",
+    "css": ["width: 4.25rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
     "className": "width-4-5",
     "css": ["width: 4.5rem;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
+    "className": "width-4-75",
+    "css": ["width: 4.75rem;"],
     "mobileFirstSupport": false,
     "category": "width"
   },
@@ -720,20 +780,8 @@
     "category": "width"
   },
   {
-    "className": "width-5-5",
-    "css": ["width: 5.5rem;"],
-    "mobileFirstSupport": false,
-    "category": "width"
-  },
-  {
     "className": "width-6",
     "css": ["width: 6rem;"],
-    "mobileFirstSupport": false,
-    "category": "width"
-  },
-  {
-    "className": "width-6-5",
-    "css": ["width: 6.5rem;"],
     "mobileFirstSupport": false,
     "category": "width"
   },
@@ -744,20 +792,8 @@
     "category": "width"
   },
   {
-    "className": "width-7-5",
-    "css": ["width: 7.5rem;"],
-    "mobileFirstSupport": false,
-    "category": "width"
-  },
-  {
     "className": "width-8",
     "css": ["width: 8rem;"],
-    "mobileFirstSupport": false,
-    "category": "width"
-  },
-  {
-    "className": "width-8-5",
-    "css": ["width: 8.5rem;"],
     "mobileFirstSupport": false,
     "category": "width"
   },
@@ -813,6 +849,156 @@
     "className": "height-auto",
     "css": ["height: auto;"],
     "mobileFirstSupport": true,
+    "category": "height"
+  },
+  {
+    "className": "height-0-25",
+    "css": ["height: 0.25rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-0-5",
+    "css": ["height: 0.5rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-0-75",
+    "css": ["height: 0.75rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-1",
+    "css": ["height: 1rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-1-25",
+    "css": ["height: 1.25rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-1-5",
+    "css": ["height: 1.5rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-1-75",
+    "css": ["height: 1.75rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-2",
+    "css": ["height: 2rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-2-25",
+    "css": ["height: 2.25rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-2-5",
+    "css": ["height: 2.5rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-2-75",
+    "css": ["height: 2.75rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-3",
+    "css": ["height: 3rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-3-25",
+    "css": ["height: 3.25rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-3-5",
+    "css": ["height: 3.5rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-3-75",
+    "css": ["height: 3.75rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-4",
+    "css": ["height: 4rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-4-25",
+    "css": ["height: 4.25rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-4-5",
+    "css": ["height: 4.5rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-4-75",
+    "css": ["height: 4.75rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-5",
+    "css": ["height: 5rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-6",
+    "css": ["height: 6rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-7",
+    "css": ["height: 7rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-8",
+    "css": ["height: 8rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-9",
+    "css": ["height: 9rem;"],
+    "mobileFirstSupport": false,
+    "category": "height"
+  },
+  {
+    "className": "height-10",
+    "css": ["height: 10rem;"],
+    "mobileFirstSupport": false,
     "category": "height"
   },
   {

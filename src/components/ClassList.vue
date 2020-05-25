@@ -8,7 +8,7 @@ div
     .padding-y-2.color-primary No matches, sorry
     button.plate.padding-2.border-rounded-3.font-xs.text-upper(type='button' @click='$emit("reset")') Reset
   .flex.justify-center.padding-y-4(v-if='inProgress')
-    icon-kocktail.icon-kocktail
+    icon-cocktail.icon-cocktail
   .flex-grow.overflow-auto(v-else ref='list')
     ul.margin-y-0.padding-left-0.no-list.font-monospace
       li.list-row.grid.border-rounded-3.padding-y-2(
@@ -142,7 +142,7 @@ export default {
   border-top: 1px dashed rgba(0, 0, 0, 0.1);
 }
 
-.icon-kocktail {
+.icon-cocktail {
   width: 5rem;
   animation: pulse 1s infinite;
   fill: #ffbfba;

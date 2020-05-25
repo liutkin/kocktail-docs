@@ -1,11 +1,11 @@
 <template lang="pug">
-.sidebar.height-full-view.overflow-auto.fixed.no-select
-  .padding-4
-    router-link.logo.font-5xl.block(:to='{ name: "api" }')
+.sidebar.height-full-view--lg.overflow-auto.fixed--lg.no-select
+  .padding-right-6.padding-right-5--md.padding-right-4--lg.padding-left-3.padding-left-4--lg.padding-y-4
+    router-link.logo.block(:to='{ name: "api" }')
       the-logo(width='100%')
   ul.margin-y-0.padding-left-0.no-list.text-upper.font-sm
-    li(v-for='({title, name}, index) in links' :key='index')
-      router-link.sidebar__link.block.padding-x-4.padding-y-3(
+    li(v-for='{title, name} in links' :key='name')
+      router-link.sidebar__link.block.padding-x-3.padding-x-4--lg.padding-y-3(
         :to='{ name }'
         active-class='bg-lite-gradient-diagonal'
         v-text='title'
@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: "TheSidebar",
+  name: "TheNav",
   components: {
     TheLogo: () => import("@/assets/logo.svg"),
   },
@@ -43,7 +43,9 @@ export default {
 
 <style lang="scss" scoped>
 .sidebar {
-  width: 17rem;
+  @include respond-to(lg, min) {
+    width: 17rem;
+  }
   &__link {
     color: $color_alt;
     &:not(.bg-lite-gradient-diagonal) {
