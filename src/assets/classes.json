@@ -1872,6 +1872,36 @@
     "category": "font"
   },
   {
+    "className": "font-cursive",
+    "css": ["font-family: cursive;"],
+    "mobileFirstSupport": false,
+    "category": "font"
+  },
+  {
+    "className": "font-fantasy",
+    "css": ["font-family: fantasy;"],
+    "mobileFirstSupport": false,
+    "category": "font"
+  },
+  {
+    "className": "font-monospace",
+    "css": ["font-family: monospace;"],
+    "mobileFirstSupport": false,
+    "category": "font"
+  },
+  {
+    "className": "font-sans-serif",
+    "css": ["font-family: sans-serif;"],
+    "mobileFirstSupport": false,
+    "category": "font"
+  },
+  {
+    "className": "font-serif",
+    "css": ["font-family: serif;"],
+    "mobileFirstSupport": false,
+    "category": "font"
+  },
+  {
     "className": "text-center",
     "css": ["text-align: center;"],
     "mobileFirstSupport": true,
@@ -2018,6 +2048,18 @@
   {
     "className": "fill-current-color",
     "css": ["fill: currentColor;"],
+    "mobileFirstSupport": false,
+    "category": "misc"
+  },
+  {
+    "className": "fill-white",
+    "css": ["fill: white;"],
+    "mobileFirstSupport": false,
+    "category": "misc"
+  },
+  {
+    "className": "fill-black",
+    "css": ["fill: black;"],
     "mobileFirstSupport": false,
     "category": "misc"
   }
