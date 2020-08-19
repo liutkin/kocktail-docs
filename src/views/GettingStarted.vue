@@ -7,10 +7,9 @@ div GettingStarted
 <script>
 export default {
   name: "GettingStarted",
-}
+};
 </script>
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 🛸-->
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

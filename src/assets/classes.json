@@ -1656,6 +1656,132 @@
     "category": "border"
   },
   {
+    "className": "trans-color",
+    "css": ["transition-property: color;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
+    "className": "trans-bg",
+    "css": ["transition-property: background-color;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
+    "className": "trans-transform",
+    "css": ["transition-property: transform;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
+    "className": "trans-filter",
+    "css": ["transition-property: filter;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
+    "className": "trans-border",
+    "css": ["transition-property: border;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
+    "className": "trans-opacity",
+    "css": ["transition-property: opacity;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
+    "className": "trans-all",
+    "css": ["transition-property: all;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
+    "className": "trans-0-1",
+    "css": ["transition-duration: 0.1s;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
+    "className": "trans-0-2",
+    "css": ["transition-duration: 0.2s;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
+    "className": "trans-0-3",
+    "css": ["transition-duration: 0.3s;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
+    "className": "trans-0-4",
+    "css": ["transition-duration: 0.4s;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
+    "className": "trans-0-5",
+    "css": ["transition-duration: 0.5s;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
+    "className": "trans-0-6",
+    "css": ["transition-duration: 0.6s;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
+    "className": "trans-0-7",
+    "css": ["transition-duration: 0.7s;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
+    "className": "trans-0-8",
+    "css": ["transition-duration: 0.8s;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
+    "className": "trans-0-9",
+    "css": ["transition-duration: 0.9s;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
+    "className": "trans-1",
+    "css": ["transition-duration: 1s;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
+    "className": "trans-linear",
+    "css": ["transition-timing-function: linear;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
+    "className": "trans-ease-in",
+    "css": ["transition-timing-function: ease-in;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
+    "className": "trans-ease-out",
+    "css": ["transition-timing-function: ease-out;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
+    "className": "trans-ease-in-out",
+    "css": ["transition-timing-function: ease-in-out;"],
+    "mobileFirstSupport": false,
+    "category": "transition"
+  },
+  {
     "className": "bg-center",
     "css": ["background-position: center center;"],
     "mobileFirstSupport": false,
@@ -1764,20 +1890,8 @@
     "category": "cursor"
   },
   {
-    "className": "cursor-zoom-in",
-    "css": ["cursor: zoom-in;"],
-    "mobileFirstSupport": false,
-    "category": "cursor"
-  },
-  {
     "className": "no-select",
     "css": ["user-select: none;"],
-    "mobileFirstSupport": false,
-    "category": "cursor"
-  },
-  {
-    "className": "no-pointer-events",
-    "css": ["pointer-events: none;"],
     "mobileFirstSupport": false,
     "category": "cursor"
   },
@@ -1872,24 +1986,6 @@
     "category": "font"
   },
   {
-    "className": "font-cursive",
-    "css": ["font-family: cursive;"],
-    "mobileFirstSupport": false,
-    "category": "font"
-  },
-  {
-    "className": "font-fantasy",
-    "css": ["font-family: fantasy;"],
-    "mobileFirstSupport": false,
-    "category": "font"
-  },
-  {
-    "className": "font-monospace",
-    "css": ["font-family: monospace;"],
-    "mobileFirstSupport": false,
-    "category": "font"
-  },
-  {
     "className": "font-sans-serif",
     "css": ["font-family: sans-serif;"],
     "mobileFirstSupport": false,
@@ -1962,6 +2058,12 @@
     "category": "text"
   },
   {
+    "className": "text-tightest",
+    "css": ["line-height: 1;"],
+    "mobileFirstSupport": false,
+    "category": "text"
+  },
+  {
     "className": "text-tight",
     "css": ["line-height: 1.25;"],
     "mobileFirstSupport": false,
@@ -1970,6 +2072,12 @@
   {
     "className": "text-average",
     "css": ["line-height: 1.5;"],
+    "mobileFirstSupport": false,
+    "category": "text"
+  },
+  {
+    "className": "text-wide",
+    "css": ["line-height: 1.75;"],
     "mobileFirstSupport": false,
     "category": "text"
   },
@@ -2060,6 +2168,18 @@
   {
     "className": "fill-black",
     "css": ["fill: black;"],
+    "mobileFirstSupport": false,
+    "category": "misc"
+  },
+  {
+    "className": "flip-vertical",
+    "css": ["transform: scaleX(-1);"],
+    "mobileFirstSupport": false,
+    "category": "misc"
+  },
+  {
+    "className": "flip-horizontal",
+    "css": ["transform: scaleY(-1);"],
     "mobileFirstSupport": false,
     "category": "misc"
   }
