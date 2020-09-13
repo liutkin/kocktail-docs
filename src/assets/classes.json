@@ -2236,5 +2236,11 @@
     "css": ["transform: scaleY(-1);"],
     "mobileFirstSupport": false,
     "category": "misc"
+  },
+  {
+    "className": "no-outline",
+    "css": ["outline: none;"],
+    "mobileFirstSupport": false,
+    "category": "misc"
   }
 ]
