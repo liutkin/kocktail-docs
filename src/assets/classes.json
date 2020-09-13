@@ -2115,13 +2115,67 @@
     "className": "transparent",
     "css": ["opacity: 0;"],
     "mobileFirstSupport": true,
-    "category": "misc"
+    "category": "opacity"
+  },
+  {
+    "className": "opacity-1",
+    "css": ["opacity: 0.1;"],
+    "mobileFirstSupport": false,
+    "category": "opacity"
+  },
+  {
+    "className": "opacity-2",
+    "css": ["opacity: 0.2;"],
+    "mobileFirstSupport": false,
+    "category": "opacity"
+  },
+  {
+    "className": "opacity-3",
+    "css": ["opacity: 0.3;"],
+    "mobileFirstSupport": false,
+    "category": "opacity"
+  },
+  {
+    "className": "opacity-4",
+    "css": ["opacity: 0.4;"],
+    "mobileFirstSupport": false,
+    "category": "opacity"
+  },
+  {
+    "className": "opacity-5",
+    "css": ["opacity: 0.5;"],
+    "mobileFirstSupport": false,
+    "category": "opacity"
+  },
+  {
+    "className": "opacity-6",
+    "css": ["opacity: 0.6;"],
+    "mobileFirstSupport": false,
+    "category": "opacity"
+  },
+  {
+    "className": "opacity-7",
+    "css": ["opacity: 0.7;"],
+    "mobileFirstSupport": false,
+    "category": "opacity"
+  },
+  {
+    "className": "opacity-8",
+    "css": ["opacity: 0.8;"],
+    "mobileFirstSupport": false,
+    "category": "opacity"
+  },
+  {
+    "className": "opacity-9",
+    "css": ["opacity: 0.9;"],
+    "mobileFirstSupport": false,
+    "category": "opacity"
   },
   {
     "className": "opaque",
     "css": ["opacity: 1;"],
     "mobileFirstSupport": true,
-    "category": "misc"
+    "category": "opacity"
   },
   {
     "className": "hover-trigger",
@@ -2145,13 +2199,13 @@
     "className": "color-white",
     "css": ["color: white;"],
     "mobileFirstSupport": false,
-    "category": "misc"
+    "category": "text"
   },
   {
     "className": "color-black",
     "css": ["color: black;"],
     "mobileFirstSupport": false,
-    "category": "misc"
+    "category": "text"
   },
   {
     "className": "fill-current-color",
