@@ -2209,7 +2209,7 @@
   },
   {
     "className": "fill-current-color",
-    "css": ["fill: currentColor;"],
+    "css": [".fill-current-color, .fill-current-color path { fill: currentColor; }"],
     "mobileFirstSupport": false,
     "category": "misc"
   },
