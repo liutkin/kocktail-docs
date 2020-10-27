@@ -648,6 +648,12 @@
     "category": "width"
   },
   {
+    "className": "min-width-none",
+    "css": ["min-width: 0;"],
+    "mobileFirstSupport": false,
+    "category": "width"
+  },
+  {
     "className": "width-full",
     "css": ["width: 100%;"],
     "mobileFirstSupport": true,
