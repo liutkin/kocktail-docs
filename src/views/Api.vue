@@ -10,6 +10,7 @@
     li(
       v-for='category in $data.$categories'
       :key='category'
+      class='margin-x-2 margin-y-1'
     )
       button.plate.padding-2.border-rounded-3.font-xs.text-upper(
         type='button'

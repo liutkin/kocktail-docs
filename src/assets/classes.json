@@ -462,30 +462,6 @@
     "category": "overflow"
   },
   {
-    "className": "overflow-x-auto",
-    "css": ["overflow-x: auto;"],
-    "mobileFirstSupport": true,
-    "category": "overflow"
-  },
-  {
-    "className": "overflow-y-auto",
-    "css": ["overflow-y: auto;"],
-    "mobileFirstSupport": true,
-    "category": "overflow"
-  },
-  {
-    "className": "overflow-x-hidden",
-    "css": ["overflow-x: hidden;"],
-    "mobileFirstSupport": true,
-    "category": "overflow"
-  },
-  {
-    "className": "overflow-y-hidden",
-    "css": ["overflow-y: hidden;"],
-    "mobileFirstSupport": true,
-    "category": "overflow"
-  },
-  {
     "className": "static",
     "css": ["position: static;"],
     "mobileFirstSupport": true,
@@ -618,14 +594,14 @@
     "category": "position"
   },
   {
-    "className": "z-index-max",
-    "css": ["z-index: 2147483647;"],
-    "mobileFirstSupport": false,
-    "category": "position"
-  },
-  {
     "className": "max-width-full",
     "css": ["max-width: 100%;"],
+    "mobileFirstSupport": true,
+    "category": "width"
+  },
+  {
+    "className": "width-half",
+    "css": ["width: 50%;"],
     "mobileFirstSupport": true,
     "category": "width"
   },
@@ -1662,6 +1638,84 @@
     "category": "border"
   },
   {
+    "className": "border-solid",
+    "css": ["border-style: solid;"],
+    "mobileFirstSupport": false,
+    "category": "border"
+  },
+  {
+    "className": "border-dashed",
+    "css": ["border-style: dashed;"],
+    "mobileFirstSupport": false,
+    "category": "border"
+  },
+  {
+    "className": "border-dotted",
+    "css": ["border-style: dotted;"],
+    "mobileFirstSupport": false,
+    "category": "border"
+  },
+  {
+    "className": "border-1",
+    "css": ["border-width: 1px;"],
+    "mobileFirstSupport": false,
+    "category": "border"
+  },
+  {
+    "className": "border-2",
+    "css": ["border-width: 2px;"],
+    "mobileFirstSupport": false,
+    "category": "border"
+  },
+  {
+    "className": "border-current",
+    "css": ["border-color: currentColor;"],
+    "mobileFirstSupport": false,
+    "category": "border"
+  },
+  {
+    "className": "border-primary",
+    "css": ["border-color: var(--color-primary);"],
+    "mobileFirstSupport": false,
+    "category": "border"
+  },
+  {
+    "className": "border-accent",
+    "css": ["border-color: var(--color-accent);"],
+    "mobileFirstSupport": false,
+    "category": "border"
+  },
+  {
+    "className": "border-alt",
+    "css": ["border-color: var(--color-alt);"],
+    "mobileFirstSupport": false,
+    "category": "border"
+  },
+  {
+    "className": "border-gray",
+    "css": ["border-color: var(--color-gray);"],
+    "mobileFirstSupport": false,
+    "category": "border"
+  },
+  {
+    "className": "border-red",
+    "css": ["border-color: var(--color-red);"],
+    "mobileFirstSupport": false,
+    "category": "border"
+  },
+  {
+    "className": "border-green",
+    "css": ["border-color: var(--color-green);"],
+    "mobileFirstSupport": false,
+    "category": "border"
+  },
+  {
+    "className": "border-blue",
+    "css": ["border-color: var(--color-blue);"],
+    "mobileFirstSupport": false,
+    "category": "border"
+  },
+  {
     "className": "trans-color",
     "css": ["transition-property: color;"],
     "mobileFirstSupport": false,
@@ -1980,6 +2034,12 @@
     "category": "font"
   },
   {
+    "className": "font-semibold",
+    "css": ["font-weight: 600;"],
+    "mobileFirstSupport": false,
+    "category": "font"
+  },
+  {
     "className": "font-black",
     "css": ["font-weight: 900;"],
     "mobileFirstSupport": false,
@@ -2002,6 +2062,138 @@
     "css": ["font-family: serif;"],
     "mobileFirstSupport": false,
     "category": "font"
+  },
+  {
+    "className": "font-mono",
+    "css": ["font-family: monospace;"],
+    "mobileFirstSupport": false,
+    "category": "font"
+  },
+  {
+    "className": "color-default",
+    "css": ["color: var(--color-default);"],
+    "mobileFirstSupport": false,
+    "category": "color"
+  },
+  {
+    "className": "color-primary",
+    "css": ["color: var(--color-primary);"],
+    "mobileFirstSupport": false,
+    "category": "color"
+  },
+  {
+    "className": "color-accent",
+    "css": ["color: var(--color-accent);"],
+    "mobileFirstSupport": false,
+    "category": "color"
+  },
+  {
+    "className": "color-alt",
+    "css": ["color: var(--color-alt);"],
+    "mobileFirstSupport": false,
+    "category": "color"
+  },
+  {
+    "className": "color-gray",
+    "css": ["color: var(--color-gray);"],
+    "mobileFirstSupport": false,
+    "category": "color"
+  },
+  {
+    "className": "color-red",
+    "css": ["color: var(--color-red);"],
+    "mobileFirstSupport": false,
+    "category": "color"
+  },
+  {
+    "className": "color-green",
+    "css": ["color: var(--color-green);"],
+    "mobileFirstSupport": false,
+    "category": "color"
+  },
+  {
+    "className": "color-blue",
+    "css": ["color: var(--color-blue);"],
+    "mobileFirstSupport": false,
+    "category": "color"
+  },
+  {
+    "className": "color-white",
+    "css": ["color: white;"],
+    "mobileFirstSupport": false,
+    "category": "color"
+  },
+  {
+    "className": "color-black",
+    "css": ["color: black;"],
+    "mobileFirstSupport": false,
+    "category": "color"
+  },
+  {
+    "className": "fill-current-color",
+    "css": [".fill-current-color, .fill-current-color path { fill: currentColor; }"],
+    "mobileFirstSupport": false,
+    "category": "color"
+  },
+  {
+    "className": "fill-default",
+    "css": [".fill-default, .fill-default path { fill: var(--color-default); }"],
+    "mobileFirstSupport": false,
+    "category": "color"
+  },
+  {
+    "className": "fill-primary",
+    "css": [".fill-primary, .fill-primary path { fill: var(--color-primary); }"],
+    "mobileFirstSupport": false,
+    "category": "color"
+  },
+  {
+    "className": "fill-accent",
+    "css": [".fill-accent, .fill-accent path { fill: var(--color-accent); }"],
+    "mobileFirstSupport": false,
+    "category": "color"
+  },
+  {
+    "className": "fill-alt",
+    "css": [".fill-alt, .fill-alt path { fill: var(--color-alt); }"],
+    "mobileFirstSupport": false,
+    "category": "color"
+  },
+  {
+    "className": "fill-gray",
+    "css": [".fill-gray, .fill-gray path { fill: var(--color-gray); }"],
+    "mobileFirstSupport": false,
+    "category": "color"
+  },
+  {
+    "className": "fill-red",
+    "css": [".fill-red, .fill-red path { fill: var(--color-red); }"],
+    "mobileFirstSupport": false,
+    "category": "color"
+  },
+  {
+    "className": "fill-green",
+    "css": [".fill-green, .fill-green path { fill: var(--color-green); }"],
+    "mobileFirstSupport": false,
+    "category": "color"
+  },
+  {
+    "className": "fill-blue",
+    "css": [".fill-blue, .fill-blue path { fill: var(--color-blue); }"],
+    "mobileFirstSupport": false,
+    "category": "color"
+  },
+  {
+    "className": "fill-white",
+    "css": [".fill-white, .fill-white path { fill: white; }"],
+    "mobileFirstSupport": false,
+    "category": "color"
+  },
+  {
+    "className": "fill-black",
+    "css": [".fill-black, .fill-black path { fill: black; }"],
+    "mobileFirstSupport": false,
+    "category": "color"
   },
   {
     "className": "text-center",
@@ -2036,12 +2228,6 @@
   {
     "className": "text-bottom",
     "css": ["vertical-align: bottom;"],
-    "mobileFirstSupport": false,
-    "category": "text"
-  },
-  {
-    "className": "text-baseline",
-    "css": ["vertical-align: baseline;"],
     "mobileFirstSupport": false,
     "category": "text"
   },
@@ -2190,6 +2376,48 @@
     "category": "misc"
   },
   {
+    "className": "hover-highlight-1",
+    "css": [".hover-highlight-1:hover, .hover-highlight-1:focus { filter: brightness(1.05); }"],
+    "mobileFirstSupport": false,
+    "category": "misc"
+  },
+  {
+    "className": "hover-highlight-2",
+    "css": [".hover-highlight-2:hover, .hover-highlight-2:focus { filter: brightness(1.1); }"],
+    "mobileFirstSupport": false,
+    "category": "misc"
+  },
+  {
+    "className": "hover-highlight-3",
+    "css": [".hover-highlight-3:hover, .hover-highlight-3:focus { filter: brightness(1.15); }"],
+    "mobileFirstSupport": false,
+    "category": "misc"
+  },
+  {
+    "className": "hover-darken-1",
+    "css": [".hover-darken-1:hover, .hover-darken-1:focus { filter: brightness(0.98); }"],
+    "mobileFirstSupport": false,
+    "category": "misc"
+  },
+  {
+    "className": "hover-darken-2",
+    "css": [".hover-darken-2:hover, .hover-darken-2:focus { filter: brightness(0.95); }"],
+    "mobileFirstSupport": false,
+    "category": "misc"
+  },
+  {
+    "className": "hover-darken-3",
+    "css": [".hover-darken-3:hover, .hover-darken-3:focus { filter: brightness(0.92); }"],
+    "mobileFirstSupport": false,
+    "category": "misc"
+  },
+  {
+    "className": "hover-shade",
+    "css": [".hover-shade:hover, .hover-shade:focus { opacity: 0.75; }"],
+    "mobileFirstSupport": false,
+    "category": "misc"
+  },
+  {
     "className": "float-left",
     "css": ["float: left;"],
     "mobileFirstSupport": false,
@@ -2202,36 +2430,6 @@
     "category": "misc"
   },
   {
-    "className": "color-white",
-    "css": ["color: white;"],
-    "mobileFirstSupport": false,
-    "category": "text"
-  },
-  {
-    "className": "color-black",
-    "css": ["color: black;"],
-    "mobileFirstSupport": false,
-    "category": "text"
-  },
-  {
-    "className": "fill-current-color",
-    "css": [".fill-current-color, .fill-current-color path { fill: currentColor; }"],
-    "mobileFirstSupport": false,
-    "category": "misc"
-  },
-  {
-    "className": "fill-white",
-    "css": [".fill-white, .fill-white path { fill: white; }"],
-    "mobileFirstSupport": false,
-    "category": "misc"
-  },
-  {
-    "className": "fill-black",
-    "css": [".fill-black, .fill-black path { fill: black; }"],
-    "mobileFirstSupport": false,
-    "category": "misc"
-  },
-  {
     "className": "flip-vertical",
     "css": ["transform: scaleX(-1);"],
     "mobileFirstSupport": false,
@@ -2240,6 +2438,12 @@
   {
     "className": "flip-horizontal",
     "css": ["transform: scaleY(-1);"],
+    "mobileFirstSupport": false,
+    "category": "misc"
+  },
+  {
+    "className": "letter-wide",
+    "css": ["letter-spacing: 0.05rem;"],
     "mobileFirstSupport": false,
     "category": "misc"
   },
